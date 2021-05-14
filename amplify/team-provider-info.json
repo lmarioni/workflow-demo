@@ -32,5 +32,26 @@
       "StackId": "arn:aws:cloudformation:us-east-1:247943188160:stack/amplify-workflowdemo-production-74341/414b2470-b4a1-11eb-9b6b-0a803f1342f3",
       "AmplifyAppId": "d71c1t6xha6nb"
     }
+  },
+  "feature": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-workflowdemo-feature-84347-authRole",
+      "UnauthRoleArn": "arn:aws:iam::247943188160:role/amplify-workflowdemo-feature-84347-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::247943188160:role/amplify-workflowdemo-feature-84347-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-workflowdemo-feature-84347-deployment",
+      "UnauthRoleName": "amplify-workflowdemo-feature-84347-unauthRole",
+      "StackName": "amplify-workflowdemo-feature-84347",
+      "StackId": "arn:aws:cloudformation:us-east-1:247943188160:stack/amplify-workflowdemo-feature-84347/a651bf20-b4a9-11eb-b5ce-0ed24b955b13",
+      "AmplifyAppId": "d71c1t6xha6nb"
+    },
+    "categories": {
+      "function": {
+        "workflowFunctions": {
+          "deploymentBucketName": "amplify-workflowdemo-feature-84347-deployment",
+          "s3Key": "amplify-builds/workflowFunctions-513649724e54556b5a74-build.zip"
+        }
+      }
+    }
   }
 }
