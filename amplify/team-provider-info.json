@@ -10,6 +10,14 @@
       "StackName": "amplify-workflowdemo-dev-71609",
       "StackId": "arn:aws:cloudformation:us-east-1:247943188160:stack/amplify-workflowdemo-dev-71609/698ebf40-b49d-11eb-b2d6-12dc044c8b8d",
       "AmplifyAppId": "d71c1t6xha6nb"
+    },
+    "categories": {
+      "function": {
+        "workflowFunctions": {
+          "deploymentBucketName": "amplify-workflowdemo-dev-71609-deployment",
+          "s3Key": "amplify-builds/workflowFunctions-78547473486174616e71-build.zip"
+        }
+      }
     }
   },
   "production": {
